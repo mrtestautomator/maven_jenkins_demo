@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation_2"  >
+
+
+<test name="test-1" >
+<groups >
+<run> 
+<include name="group 1" />
+</run>
+</groups>
+<packages >
+<package name="testngFiles"/>
+</packages>
+</test>
+
+<test name="test-2" >
+<groups >
+<run> 
+<include name="group 1" />
+</run>
+</groups>
+<packages >
+<package name="testngSample"/>
+</packages>
+</test>
+
+<test name="test-3" >
+<groups >
+<run> 
+<include name="group 1" />
+</run>
+</groups>
+<packages >
+<package name="testngTicket"/>
+</packages>
+</test>
+
+ 
+
+</suite>
