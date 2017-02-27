@@ -128,7 +128,7 @@ classpath="${test.classpath}"
 
 <testng classpath="${test.classpath}:${test.dest}" suitename="suite1">
 
-<xmlfileset dir="${ws.home}" includes="packages.xml"/>
+<xmlfileset dir="${ws.home}" includes="packages.xml,groups.xml"/>
 
 </testng>
 
